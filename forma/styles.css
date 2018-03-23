@@ -1,0 +1,159 @@
+.answer{
+	width: 95%;
+}
+
+.attention{
+	color: #807e8b;
+	font-size: 14px;
+}
+
+body{
+	background: #eee8f6;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Barlow', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.boldMail{
+	font-weight: bold;
+}
+
+button{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	outline: none;
+}
+
+.colorblock{
+	background: #673bb7;
+	font-size: 30px;
+	height: 200px;
+	width: auto;
+}
+
+.colorline{
+	background: #b588ff;
+	height: 8px;
+}
+
+.container{
+	align-self: center;
+	background: #fff;
+	box-shadow:0 0px 8px rgba(0,0,0,.3);
+	position: relative;
+	top: -75px;
+	width: 700px;
+}
+
+.container section{
+	padding: 20px 30px 30px 40px;
+}
+
+.custom-file-upload {
+	color: #0075da;
+	cursor: pointer;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.description{
+	font-size: 14px;
+}
+
+.editIcon{
+	opacity: 0.6;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.footer{
+	position: relative;
+	top: -30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #807e8b;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.gform{
+	color: #b6b0be;
+	font-size: 24px;
+}
+
+.googleItem{
+	color: #807e8b;
+	font-size: 24px;
+}
+
+.infoIcon{
+	opacity: 0.6;
+	position: absolute;
+	left: 5px;
+	bottom: -15px;
+}
+
+section p{
+	font-size: 20px;
+	margin: 40px 0px 20px 0px;
+}
+
+.select{
+	outline: none;
+	height: 25px;
+	font-family: 'Barlow';
+	border-radius: 10px;
+}
+
+.sumbit{
+	margin: 60px 0px 10px 0px;
+	background: #0075da;
+	font-weight: bolder;
+	color: #fff;
+	text-transform: uppercase;
+	height: 35px;
+	width: 80px;
+	border: none;
+	border-radius: 8px;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+[type="date"]{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #9c9c9c;
+	width: 130px;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+[type="file"] {
+	display: none;
+}
+
+[type="radio"]{
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+}
+
+[type="text"]{
+	outline: none;
+	width: 40%;
+	padding: 0px 5px;
+	border: none;
+	border-bottom: 1px solid #9c9c9c;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #0075da;
+}
