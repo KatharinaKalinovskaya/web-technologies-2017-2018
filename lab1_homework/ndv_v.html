@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title> Главная
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style_2.css">
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <div class="menu">
+        <a class="logo logo_sm" href="/">
+          <img src="img/logo.jpg" alt="">
+        </a>
+        <div class="hamburger">
+          <div class="hamburger__line"></div>
+        </div>
+        <nav class="navigation">
+          <a class="link" href="">О компании</a>
+          <a class="link" href="">Застройщикам</a>
+          <a class="link" href="">Офисы НДВ</a>
+          <a class="link" href="">Избранное</a>
+        </nav>
+        <button class="btn btn_attent">Заказать звонок</button>
+        <a class="tel" href="tel:">8 (495) 988-44-22</a>
+      </div>
+    </header>
+    <!--main-->
+    <main class="main">
+      <a class="banner" href="" style="background-image: url('img/bg4.jpg');">
+        <span class="h1">Скидки до 15%</span>
+      </a>
+      <!-- aside-->
+      <div class="aside-toggle">
+        <button class="btn btn_default btn_arr">Фильтровать
+          <span></span>
+        </button>
+      </div>
+      <aside class="aside">
+        <a class="logo" href="/">
+          <img src="img/logo.jpg" alt="">
+        </a>
+        <form class="filters">
+          <h2 class="h5 filters__title">НОВОСТРОЙКИ</h2>
+          <div class="filter">
+            <p class="filter__title">Расположение</p>
+            <div class="filter__params checkboxes">
+              <input type="checkbox" name="locality" value="moscow" id="moscow">
+              <label for="moscow">Москва</label>
+              <input type="checkbox" name="locality" value="moscow-area" id="moscow-area">
+              <label for="moscow-area">Москвовская область</label>
+            </div>
+          </div>
+          <div class="filter">
+            <p class="filter__title">Цена:</p>
+            <div class="filter__params inputs">
+              <input type="text" name="price-start" placeholder="от">
+              <input type="text" name="price-end" placeholder="до">
+            </div>
+          </div>
+          <div class="filter">
+            <p class="filter__title">Класс жилья</p>
+            <div class="filter__params checkboxes checkboxes_half">
+              <input type="checkbox" name="status" value="comfort" id="comfort">
+              <label for="comfort">Комфорт</label>
+              <input type="checkbox" name="status" value="bisnes" id="bisnes">
+              <label for="bisnes">Бизнес</label>
+            </div>
+          </div>
+          <div class="filter">
+            <p class="filter__title">Количество комнат</p>
+            <div class="filter__params checkboxes rooms checkboxes_half">
+              <input type="checkbox" name="rooms" value="1" id="rooms1">
+              <label for="rooms1">1</label>
+              <input type="checkbox" name="rooms" value="2" id="rooms2">
+              <label for="rooms2">2</label>
+              <input type="checkbox" name="rooms" value="3" id="rooms3">
+              <label for="rooms3">3</label>
+              <input type="checkbox" name="rooms" value="4" id="rooms4">
+              <label for="rooms4">4</label>
+              <input type="checkbox" name="rooms" value="5" id="rooms5">
+              <label for="rooms5">5</label>
+            </div>
+          </div>
+          <button class="btn btn_attent-full" type="submit">Показать 
+            <span>0 </span>обьектов
+          </button>
+        </form>
+        <div class="links">
+          <a class="link" href="">Только готовые новостройки</a>
+          <a class="link" href="">Скидки на новостройки</a>
+        </div>
+      </aside>
+      <!--objects-->
+      <article class="objects">
+        <div class="objects__control">
+          <form class="sort" action="">
+            <div class="select">
+              <select name="sort">
+                <option value="default">Сортировать по умолчанию</option>
+                <option value="price">по цене</option>
+                <option value="price-meter">по цене за метр</option>
+              </select>
+            </div>
+          </form>
+          <div class="navigation">
+            <a class="link list" href="">Показать плиткой</a>
+            <a class="link" href="">Показать на карте</a>
+            <a class="link line" href="">Показать списком </a>
+          </div>
+        </div>
+        <div class="objects__list">
+          <div class="objects__list-header">
+            <p>Фото</p>
+            <p>Название</p>
+            <p>Адрес</p>
+            <p>Срок сдачи</p>
+            <p>Цена</p>
+            <p>Цена общая</p>
+          </div>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский» </h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский»</h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский»</h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский»</h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский»</h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="object">
+            <a class="object__link" href=""></a>
+            <div class="object__img" style="background-image: url('img/dom.jpg');"></div>
+            <div class="object__info">
+              <h3 class="object__title hide-txt">Мкр. «Красногорский»</h3>
+              <div class="object__location">
+                <p class="hide-txt">Тушинская</p>
+                <p class="hide-txt">Нахабино</p>
+              </div>
+              <p class="object__date">II кв. 2016г. - III кв. 2020г.</p>
+              <div class="object__prices">
+                <p class="object__price">от 1.5 млн
+                  <span> &#8381;</span>
+                </p>
+                <p class="object__price_meter">от 58 000
+                  <span> &#8381;/</span>
+                  <span>М
+                    <sup>2</sup>
+                  </span>
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </article>
+     </main>
+  </body>
+</html>
