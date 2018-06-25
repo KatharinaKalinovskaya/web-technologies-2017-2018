@@ -1,0 +1,27 @@
+#editButton {
+    float: right;
+}
+
+.inherit {
+    display: block;
+    background-color: inherit;
+}
+
+.gray {
+    display: block;
+    background-color: #ccc;
+}
+
+.tabButs {
+
+    padding: 14px 16px;
+
+}
+
+.tabButs:hover {
+    background-color: #ddd;
+}
+
+.hidden {
+    display: none;
+}
